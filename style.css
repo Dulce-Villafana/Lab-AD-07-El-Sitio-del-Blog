@@ -2,4 +2,56 @@ html {
     height: 100%;
     width: 100%;
   }
-  
+  body {
+  display: flex;
+  flex-direction: column;
+}
+  .encabezado{
+    border: solid 2px pink;
+    color: darkmagenta;
+    background-color: lightpink;
+    font-display: block;
+    text-align: center;
+    position: sticky;
+    top:0;
+    width:100%;
+    height: fit-content;
+  }
+  .options{
+    color: deeppink;
+    font-size: x-large;
+  }
+  .cuerpo´{
+    font-display: flex;
+    padding-top: 100px;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: mediumpurple;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #bienvenidos{
+    text-align: center;
+    color:blue;
+  }
+  #espacio{
+    text-align: center;
+    color:brown;
+  }
+  .img img{
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  }
+  .pie{
+    border: solid 2px yellow;
+    text-align: center;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    font-style: italic;
+   background-color: #e6e1b5; /* tu color */
+    text-align: center;
+    padding: 15px
+  }
